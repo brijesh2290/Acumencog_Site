@@ -1,0 +1,184 @@
+
+
+/***********************/
+/* below 1344px  such as small desktop*/
+/**********************/
+
+@media (max-width: 84em) {
+    .footer-1-heading {
+        font-size: 6rem;
+    }
+}
+
+
+/***********************/
+/* below 1200px  such as landscape tablets*/
+/**********************/
+@media (max-width: 75em) {
+    .footer-1-heading {
+        font-size: 4rem;
+    }
+    .logo-img-footer{
+    height: 6rem;
+    width: 6rem;
+    }
+}
+
+
+/***********************/
+/* below 944px  such as simple tablets*/
+/**********************/
+@media (max-width: 59em) {
+    .heading-1{
+    font-size: 18rem;
+    }
+    .section-1{
+        background-position: 60% -50%;
+    }
+    .section-2{
+        background-position: 60% -20%;
+    }
+    .section-3{
+        background-position: 60% -80%;
+    }
+    .section-4{
+        background-position: 60% -50%;
+    }
+    .section-5{
+        background-position: 60% -50%;
+    }
+    .section-6{
+        background-position: 60% -65%;
+    }
+    .section-7{
+        background-position: 60% -75%;
+    }
+    .section-8{
+        background-position: 60% -20%;
+    }
+     .footer-1-heading {
+        font-size: 3.2rem;
+    }
+    .logo-img-footer{
+    height: 5rem;
+    width: 5rem;
+    }
+}
+
+
+
+
+/***********************/
+/* below 704px for smaller tablet*/
+/**********************/
+@media (max-width: 44em) {
+    .text{
+        padding: 2rem;
+    }
+    .section-1{
+        background-position: 60% -80%;
+        /* background-size: 140% 100%; */
+    }
+    .section-2{
+        background-position: 60% -20%;
+    }
+    .section-3{
+        background-position: 60% -80%;
+    }
+    .section-4{
+        background-position: 60% -70%;
+    }
+    .section-5{
+        background-position: 60% -60%;
+    }
+    .section-6{
+        background-position: 60% -65%;
+    }
+    .section-7{
+        background-position: 60% -75%;
+    }
+    .section-8{
+        background-position: 60% -50%;
+    }
+    .heading-1{
+    font-size: 13rem;
+    }
+    .footer-1-heading {
+        font-size: 2.2rem;
+    }
+    .logo-img-footer{
+    height: 4rem;
+    width: 4rem;
+    }
+}
+
+
+
+/***********************/
+/* below 544px for mobile phone*/
+/**********************/
+@media (max-width: 34em) {
+    .heading-1{
+    font-size: 5rem;
+    }
+    .heading-2{
+    font-size: 2rem;
+    }
+    .section-1{
+        background-position: 40% -80%;
+        /* background-size: 140% 100%; */
+    }
+    .section-2{
+        background-position: 60% -20%;
+    }
+    .section-3{
+        background-position: 60% -80%;
+    }
+    .section-4{
+        background-position: 60% -70%;
+    }
+    .section-5{
+        background-position: 50% -80%;
+    }
+    .section-6{
+        background-position: 60% -85%;
+    }
+    .section-7{
+        background-position: 60% -85%;
+    }
+    .section-8{
+        background-position: 60% -50%;
+    }
+    .heading-1{
+    font-size: 13rem;
+    }
+    .footer-1-heading {
+        font-size: 1.8rem;
+        opacity: 30%;
+    }
+    .logo-img-footer{
+    height: 3rem;
+    width: 3rem;
+    }
+    .section-footer {
+        padding: 0.2rem;
+    }
+    .footer-1-btn {
+        font-size: 1.8rem;
+    }
+    .footer-2 {
+        padding: 0.2rem;
+    }
+    .footer-heading {
+        font-size: 1.6rem;
+    }
+    .footer-text {
+        font-size: 0.8rem;
+    }
+    .footer-reg {
+        font-size: 0.6rem;
+    }
+}
+
+
+

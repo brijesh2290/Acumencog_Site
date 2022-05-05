@@ -1,0 +1,77 @@
+/***********************/
+/* below 1200px  such as landscape tablets*/
+/**********************/
+@media (max-width: 75em) {
+    html{
+        font-size: 60%;
+    }
+    .footer-1-heading{
+        font-size: 5rem;
+    }
+    .input{
+        font-size: 1.6rem;
+    }
+    .form-container{
+        padding: 8rem 2rem 8rem 2rem;
+        background-size: 220% 460%;
+    }
+}
+
+/***********************/
+/* below 944px  such as simple tablets*/
+/**********************/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .form-container{
+        /* padding: 8rem 2rem 8rem 2rem; */
+        background-size: 240% 460%;
+  }
+  .address-heading{
+      font-size: 2.6rem;
+  }
+  .address-text{
+      font-size: 1.8rem;
+  }
+  .footer-1-heading{
+        font-size: 4.6rem;
+    }
+}
+
+/***********************/
+/* below 704px  for mobile*/
+/**********************/
+@media (max-width: 44em) {
+    .form-container{
+        /* padding: 8rem 2rem 8rem 2rem; */
+        background-size: 320% 460%;
+    }
+    .footer-1-heading{
+        font-size: 3rem;
+    }
+    .logo-img-footer{
+  height: 4rem;
+  width: 4rem;
+  /* opacity: 10%; */
+    }
+
+}
+/***********************/
+/* below 544px for small screeen mobile phone*/
+/**********************/
+@media (max-width: 34em) {
+    .section-form{
+    
+    grid-template-columns: 1fr;
+        }
+    .section-address{
+        flex-direction:column;
+        }
+    .address-heading{
+        font-size: 4rem;
+    }
+    .address-text{
+        font-size: 2.8rem;
+    }
+}
